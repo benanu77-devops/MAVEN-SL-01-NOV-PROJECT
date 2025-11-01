@@ -31,6 +31,10 @@ public class MyCalc {
 	{
 		System.out.println("This is demo!");
 	}
+	public void hello()
+	{
+		System.out.println("This is Hello!");
+	}
 	
 	
 
@@ -44,5 +48,6 @@ public class MyCalc {
 		System.out.println("This is Master Barnch");
 		calc.show();
 		calc.demo();
+		calc.hello();
 	}
 }
